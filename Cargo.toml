@@ -1,0 +1,11 @@
+[package]
+name = "tower-swim"
+version = "0.1.0"
+authors = ["Lucio Franco <luciofranco14@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1"
+tokio = "0.1"
+tower-direct-service = { git = "https://github.com/tower-rs/tower" }
+# tokio-tower = { git = "https://github.com/tower-rs/tokio-tower" }
